@@ -23,7 +23,7 @@ labels = [1,2,2,3,4,5,3,2,1,5,5,4]
 clf = tree.DecisionTreeClassifier() # instância do classificador
 clf = clf.fit(features, labels) # fit encontra padrões nos dados
 
-# iremos utilizar para classificar uma nova fruta
+# Hora de testar: vamos classificar um novo objeto
 print(clf.predict([[1, 1 ,1]]))
 
 #grande1 #pequeno2
